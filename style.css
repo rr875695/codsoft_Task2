@@ -1,0 +1,64 @@
+
+
+body{
+    background-color: rgb(14, 13, 19);
+}
+
+h1{
+    color: white;
+    font-size: 60px;
+}
+.center{
+    text-align: center;
+}
+
+.container {
+    background-color: rgb(14, 13, 19);
+    text-align: center;
+    width: max-content;
+    margin: auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Initial glow effect */
+    animation: glow 1.5s infinite alternate; /* Glow animation */
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+    }
+}
+
+
+button{
+    padding: 15px;
+    border-radius: 60px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 6px 0;
+    border: 3px solid rgb(151, 138, 138);
+    width: 100px;
+    color: white;
+    background-color: rgb(30, 25, 49);
+}
+
+button:hover{
+    background-color: rgb(215, 215, 228);
+    color: black;
+}
+
+.container input{
+    padding: 18px;
+    width: 87%;
+    border-radius: 10px;
+    font-size: 40px;
+    color: rgb(29, 29, 58);
+}
+
+
+.equal{
+    width: 39%;
+}
